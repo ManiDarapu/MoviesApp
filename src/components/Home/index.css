@@ -1,0 +1,100 @@
+.homeDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-size: cover;
+}
+.homeDiv2 {
+  background-image: url('https://res.cloudinary.com/dfhkhhudf/image/upload/v1698667447/ba68oafe2sg3j4tcbal5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 50%;
+  height: 50%;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+
+.superManDiv {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: center;
+  margin-left: 60px;
+}
+.h1 {
+  color: var(--general-white, #fff);
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: HK Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px; /* 96.875% */
+}
+
+.superManPara {
+  width: 443px;
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.homeBtn {
+  text-align: center;
+  border-radius: 5px;
+  width: 8%;
+  height: 8%;
+  padding: 8px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.homeDiv3 {
+  background-color: #131313;
+  height: 50%;
+  width: 50%;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+
+.failureH1 {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tryAgainBtn {
+  border-radius: 3px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inProgress {
+  width: 53.333px;
+  height: 53.333px;
+  flex-shrink: 0;
+  fill: #d81f26;
+}
+
+.trendingH1 {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 80px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
